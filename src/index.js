@@ -1,6 +1,7 @@
 // import test from './test'
 // import * as test from './test';
 import './index.css'
+// import './signup.html'
 // ﻿const app =document.querySelector('#root')
 // app.innerHTML='智安小可爱'
 

@@ -5,10 +5,11 @@ body {
   background-color: lightblue;
 }
 .backgroud{
-  display:block;
   background-color:lightblue;
-  margin: 50px;
-  padding:50px;
+  left:150px;
+  top:150px;
+  position:absolute;
+
 }
 .header{
   text-align: center;
