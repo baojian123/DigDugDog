@@ -1,4 +1,4 @@
-//import test from './test'
+import test from './test'
 import * as test from './test';
 import './index.css'
 ﻿const app =document.querySelector('#root')
