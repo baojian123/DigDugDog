@@ -13,33 +13,39 @@
       font-family: Arial;
     }
     .signbox{
-
-
+      top:50%;
+      left:50%;
+      position:absolute;
+      width:500px;
+      height:250px;
+      border:1px solid #ffffff;
+      margin-left: -240px;
+      margin-top: -120px;
     }
     .sign{
-
+      text-align: center;
     }
     .signname{
-
+      padding: 10px;
     }
     .signpsw{
-
+      padding: 10px;
     }
     .btn{
-
+      margin-left:40px;
     }
   </style>
 </head>
 
 <body>
 <div class="signbox">
-  <h1>Sign Up</h1>
   <div class="sign">
+    <h1>Sign Up</h1>
     <div class="signname">YourUserName<input type="text"></div>
     <div class="signpsw">YourPassword<input type="text"></div>
     <div class="btn">
-    <button>Join us</button>
-    <button><a href="../public/index.html">Login</a></button>
+    <button class="btn">Join us</button>
+    <button class="btn"><a href="../public/index.html">Login</a></button>
     </div>
   </div>
 </div>
